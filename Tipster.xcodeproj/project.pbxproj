@@ -13,6 +13,7 @@
 		84273D36276782CF00F31F37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84273D34276782CF00F31F37 /* Main.storyboard */; };
 		84273D38276782D000F31F37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84273D37276782D000F31F37 /* Assets.xcassets */; };
 		84273D3B276782D000F31F37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84273D39276782D000F31F37 /* LaunchScreen.storyboard */; };
+		84273D432767B44B00F31F37 /* Tipster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84273D422767B44B00F31F37 /* Tipster.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		84273D37276782D000F31F37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84273D3A276782D000F31F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84273D3C276782D000F31F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84273D422767B44B00F31F37 /* Tipster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tipster.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				84273D2E276782CF00F31F37 /* AppDelegate.swift */,
 				84273D30276782CF00F31F37 /* SceneDelegate.swift */,
 				84273D32276782CF00F31F37 /* ViewController.swift */,
+				84273D422767B44B00F31F37 /* Tipster.swift */,
 				84273D34276782CF00F31F37 /* Main.storyboard */,
 				84273D37276782D000F31F37 /* Assets.xcassets */,
 				84273D39276782D000F31F37 /* LaunchScreen.storyboard */,
@@ -94,6 +97,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					9,
+				);
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
@@ -141,6 +147,7 @@
 				84273D33276782CF00F31F37 /* ViewController.swift in Sources */,
 				84273D2F276782CF00F31F37 /* AppDelegate.swift in Sources */,
 				84273D31276782CF00F31F37 /* SceneDelegate.swift in Sources */,
+				84273D432767B44B00F31F37 /* Tipster.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
